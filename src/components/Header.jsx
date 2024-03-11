@@ -1,6 +1,11 @@
+const HeaderComponent = {
+    margin: "50px auto",
+  }
+
+
 function Header() {
     return (
-        <header>
+        <header style = {HeaderComponent}>
             <h1>Супергерои</h1>
         </header>
     );
